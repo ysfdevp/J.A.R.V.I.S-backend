@@ -1,0 +1,25 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+duckduckgo-search>=3.9.0
+google-generativeai>=0.3.0
+
+# Optional/Cross-platform
+playwright>=1.40.0
+youtube-transcript-api>=0.6.1
+
+# Windows-only (will fail on Linux, but that's OK - we handle it gracefully)
+# Uncomment if running locally on Windows:
+# pyaudio
+# pyautogui
+# pyperclip
+# opencv-python
+# numpy
+# mss
+# psutil
+# send2trash
+# comtypes
+# pycaw
+# win10toast
