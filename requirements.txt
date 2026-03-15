@@ -1,19 +1,9 @@
-python -m pip install pyaudio
-python -m pip install google-genai
-python -m pip install google-generativeai
-python -m pip install pillow
-python -m pip install requests
-python -m pip install beautifulsoup4
-python -m pip install playwright
-python -m pip install pyautogui
-python -m pip install pyperclip
-python -m pip install opencv-python
-python -m pip install numpy
-python -m pip install mss
-python -m pip install psutil
-python -m pip install send2trash
-python -m pip install comtypes
-python -m pip install pycaw
-python -m pip install win10toast
-python -m pip install duckduckgo-search
-python -m pip install youtube-transcript-api
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+duckduckgo-search>=3.9.0
+google-generativeai>=0.3.0
+playwright>=1.40.0
+youtube-transcript-api>=0.6.1
